@@ -1,0 +1,70 @@
+/*header styles*/
+.header-div{
+	display: flex;
+	justify-content: space-between;
+	background-color:rgb(243, 243, 252);
+}
+.logo{
+	height: 90px;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ul{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	margin-right: 115px;
+	margin-top: 45px;
+}
+.first{
+	color:rgb(45, 132, 190);
+	font-weight: bold;
+	font-family: "BPG Mrgvlovani Caps", sans-serif;
+}
+.second{
+	margin-left: 80px;
+	color:rgb(45, 132, 190);
+	font-weight: bold;
+	font-family: "BPG Mrgvlovani Caps", sans-serif;
+}
+.third{
+	margin-left: 80px;
+	color:rgb(45, 132, 190);
+	font-weight: bold;
+	font-family: "BPG Mrgvlovani Caps", sans-serif;
+}
+.fourth{
+	margin-left: 80px;
+	color:rgb(45, 132, 190);
+	font-weight: bold;
+	font-family: "BPG Mrgvlovani Caps", sans-serif;
+}
+/*first section styles*/
+.background{
+	background-image: url("../images/background.jpg");
+	height: 500px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h1{font-size: 55px;
+	color: #FFFFFF;
+	font-family: "Arial GEO Bold", sans-serif;
+}
+.p1{
+	position: absolute;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top: 170px;
+	font-family: "BPG LE Studio 04 Caps", sans-serif;
+}
+
+        
+    
