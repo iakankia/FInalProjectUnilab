@@ -66,5 +66,31 @@ ul{
 	font-family: "BPG LE Studio 04 Caps", sans-serif;
 }
 
+.about{
+	width: 800px;
+	height: 140px;
+	text-align: center;
+	margin-left: 250px;
+}
+.kheta{
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.kheta::after{
+	content: "";
+	background-color: rgb(31, 41, 31);
+	width: 120px;
+	height: 1px;
+	margin-top: 10px;
+	margin-left: 340px;
+	display: block;
+}
+.discription{
+	font-size: 17px;
+}
+
+
         
     
