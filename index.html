@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
 	<title> DIscover Kheta </title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="/node_modules/bpg-mrgvlovani-caps/css/bpg-mrgvlovani-caps.min.css">
 	<link rel="stylesheet" href="/node_modules/arial-geo-bold/css/arial-geo-bold.min.css">
 	<link rel="stylesheet" href="/node_modules/bpg-le-studio-04-caps/css/bpg-le-studio-04-caps.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+				<!-- downloaded file -->
+	<link rel="stylesheet" href="css/slick.css">
+				<!-- theme with absolute link -->
+	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css&quot; rel="stylesheet"/>
+				<!-- my file -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+				<!-- Jquery cdn link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+				<!-- downloaded file -->
+	<script src="js/slick.min.js"></script>
+				<!-- my file -->
+	<script src="js/script.js"></script>
+	
 	                                        <!-- header -->
 	<header>
 		<div class="header-div" >
@@ -23,7 +35,7 @@
 					<a class="second" href="#">  ჩვენ შესახებ </a>
 				</li>
 				<li>
-					<a class="third" chref="#">  გალერეა </a>
+					<a class="third" href="#">  გალერეა </a>
 				</li>
 				<li>
 					<a 	class="fourth" href="#">  კონტაქტი </a>
@@ -40,10 +52,13 @@
 		</div>
 	</section>
 										  <!-- section 2 -->
-	<section>
+	<section class="text-section">
 		<div class="about">
 			<h2 class="kheta"> ხეთა </h2>
-			<p class="discription"> <a class="link" target="blank" href="https://www.google.com/maps/search/%E1%83%AE%E1%83%94%E1%83%97%E1%83%90/@42.3610635,41.8299349,14z/data=!3m1!4b1"> ხეთა </a> არის სოფელი, სამეგრელო-ზემო სვანეთის მხარის ხობის მუნიციპალიტეტში. მოგიყვებით იმ ადგილების შესახებ, რომლის მონახულებაც ამ ერთი შეხედვით პატარა, მაგრამ დიდი ტურისტული პოტენციალის მქონე სოფელში შეგიძლიათ.  </p>	
+			<p class="discription"> ხეთა არის სოფელი, სამეგრელო-ზემო სვანეთის მხარის ხობის მუნიციპალიტეტში. მოგიყვებით იმ ადგილების შესახებ, რომლის მონახულებაც ამ ერთი შეხედვით პატარა, მაგრამ დიდი ტურისტული პოტენციალის მქონე სოფელში შეგიძლიათ.  </p>	
+		</div>
+		<div>
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5895.88560642596!2d41.8488765064818!3d42.365058208927145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c341eb4a96ee1%3A0xfc75efd65eebf0c9!2sKheta!5e0!3m2!1sen!2sge!4v1629719958278!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
 	</section>
                                            <!-- section 3 -->
@@ -71,6 +86,23 @@
 		</div>
 	</section>
 
+
+	<section id="slick">
+		<div class="single-item slider">
+			<div class="slider-item">
+				<img class="church" src="images/church.jpg" alt="church">
+			</div>
+			<div class="slider-item">
+				<img class="museum" src="images/museum.JPG" alt="museum">
+			</div>
+			<div class="slider-item">
+				<img class="lake" src="images/lake.jpg" alt="lake">
+			</div>
+			<div class="slider-item">
+				<img class="fortress" src="images/fortress.jpeg" alt="fortress">
+			</div>
+		</div>
+	</section>
 	<!-- <section class="section2">
 		<div class="main-div">
 			<div class="left-div">

@@ -1,11 +1,14 @@
 /*header styles*/
 .header-div{
+	position: fixed;
+	top:0px;
+	z-index: 2;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	background-color:rgb(243, 243, 252);
 }
 .logo{
-	height: 90px;
+	height: 60px;
 	margin-left: 60px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -15,7 +18,7 @@ ul{
 	align-items: flex-end;
 	justify-content: space-around;
 	margin-right: 115px;
-	margin-top: 45px;
+	margin-top: 30px;
 }
 .first{
 	color:rgb(45, 132, 190);
@@ -40,17 +43,24 @@ ul{
 	font-weight: bold;
 	font-family: "BPG Mrgvlovani Caps", sans-serif;
 }
+a:hover{
+	color:brown;
+	transition: linear,1s;
+	transition-duration: 2s;
+}
                                          /*first section styles*/
 .background{
 	background-image: url("../images/background.jpg");
 	height: 500px;
-	margin-top: 60px;
+	width: 100%;
+	margin-top: 100px;
 	margin-bottom: 80px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
 	background-position: center;
 	position: relative;
 	display: flex;
+	flex-wrap:wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -66,11 +76,18 @@ ul{
 	font-family: "BPG LE Studio 04 Caps", sans-serif;
 }
                                       /* <!-- section 2 styles-->  */
+.text-section{
+	min-width: 1300px;
+	width: 100%;
+	height: 360px;
+	display: flex;
+}
 .about{
-	width: 800px;
+	max-width: 500px;
+	width: 100%;
 	height: 160px;
 	text-align: center;
-	margin-left: 250px;
+	margin-left: 40px;
 	margin-bottom: 50px;
 	border-color: cadetblue;
 }
@@ -80,7 +97,7 @@ ul{
 .kheta{
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .kheta::after{
@@ -88,8 +105,7 @@ ul{
 	background-color: rgb(31, 41, 31);
 	width: 120px;
 	height: 1px;
-	margin-top: 10px;
-	margin-left: 340px;
+	margin:15px 190px 30px;
 	display: block;
 }
 .discription{
@@ -99,8 +115,28 @@ ul{
 	letter-spacing: 0.07px;
     line-height: 23.3px;
 }
+.map{
+	width: 700px;
+	height: 360px;
+	margin-left: 80px;
+}
 
                                           /* section 3 styles */
+.slider{
+	display: flex;
+	width: 600px;
+	height: 400px;
+	margin-left: 350px;
+}
+.slider-item{
+	width: 500px;
+	height: 400px;
+	/* margin: 15px; */
+}
+.slider-item img{
+	width: 100%;
+	height: 100%;
+}	
 .directions{
 	display: block;
 	text-align: center;
