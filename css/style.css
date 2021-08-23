@@ -7,9 +7,10 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
+	padding: 10px;
 }
 .logo{
-	height: 60px;
+	height: 50px;
 	margin-left: 60px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -45,7 +46,7 @@ ul{
 	font-family: "BPG Mrgvlovani Caps", sans-serif;
 }
 a:hover{
-	color:brown;
+	color:cyan;
 	transition: linear,1s;
 	transition-duration: 2s;
 }
