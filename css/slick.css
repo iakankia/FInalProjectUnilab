@@ -117,3 +117,13 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-prev{
+    height: 30px;
+    margin-top:175px;
+    font-family: 'Merienda One', cursive;
+}
+.slick-next{
+    height: 30px;
+    margin-top: 175px;
+    font-family: 'Merienda One', cursive;
+}
