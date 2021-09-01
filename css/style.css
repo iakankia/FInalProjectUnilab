@@ -81,7 +81,7 @@ a:hover{
 }
                                       /* <!-- section 2 styles-->  */
 .text-section{
-	min-width: 1300px;
+	max-width: 1300px;
 	width: 100%;
 	height: 360px;
 	display: flex;
