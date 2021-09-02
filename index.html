@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
 						<!-- Fb meta tags -->
 	<meta property="og:url"                content="https://iakankia.github.io/FInalProjectUnilab/" />
 	<meta property="og:type"               content="Informative site" />
 	<meta property="og:title"              content="Discover Kheta" />
 	<meta property="og:description"        content="Web-Site is made for giving an information about beautiful village in Samegrelo" />
-	<meta property="og:image"              content="./images/facebook-image.jpg" />
+	<meta property="og:image"              content="images/facebook-image.jpg" />
 				<!-- fav icon -->
 	<link rel="icon" href="./images/logo.png" type="image/png">
 				<!-- script for icons -->
@@ -21,7 +23,7 @@
 				<!-- downloaded file -->
 	<link rel="stylesheet" href="css/slick.css">
 				<!-- theme with absolute link -->
-	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css&quot;" rel=""/>
+	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 				<!-- my file -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -47,13 +49,13 @@
 					<a class="first" href="index.html">  მთავარი </a>
 				</li>
 				<li>
-					<a class="second" href="#">  ჩვენ შესახებ </a>
+					<a class="second" href="#about-us">  ჩვენ შესახებ </a>
 				</li>
 				<li>
-					<a class="third" href="#">  გალერეა </a>
+					<a class="third" href="#slick">  გალერეა </a>
 				</li>
 				<li>
-					<a 	class="fourth" href="#">  კონტაქტი </a>
+					<a 	class="fourth" href="#contact">  კონტაქტი </a>
 				</li>
 			</ul>
 		</nav>
@@ -67,7 +69,7 @@
 		</div>
 	</section>
 										  <!-- section 2 -->
-	<section class="text-section">
+	<section id="about-us" class="text-section">
 		<div class="about">
 			<h2 class="kheta"> ხეთა </h2>
 			<p class="discription"> ხეთა არის სოფელი, სამეგრელო-ზემო სვანეთის მხარის ხობის მუნიციპალიტეტში. მოგიყვებით იმ ადგილების შესახებ, რომლის მონახულებაც ამ ერთი შეხედვით პატარა, მაგრამ დიდი ტურისტული პოტენციალის მქონე სოფელში შეგიძლიათ.  </p>	
@@ -79,7 +81,7 @@
                                            <!-- section 3 -->
 	<section> 
 		<div class="directions">
-			<h1 class="explore"> რეკომენდირებული ადგილები </h1>
+			<h2 class="explore"> რეკომენდირებული ადგილები </h2>
 			<div class="div-container">
 				<div>
 					<img class="church" src="images/church.jpg" alt="church">
@@ -116,7 +118,7 @@
 													<!-- section 4, slider -->
 	<section id="slick">
 		<div class="slider-header">
-			<h1>ფოტო გალერეა</h1>
+			<h2>ფოტო გალერეა</h2>
 		</div>
 		<div class="center slider">
 			<div class="slider-item">
@@ -179,7 +181,7 @@
 	</section>
 												<!-- section 5 -->
 	<section>
-		<div class="top-div">
+		<div id="contact" class="top-div">
 			<div class="top-left-div" >
 				<h3>Quick links</h3>
 				<ul>
@@ -234,21 +236,20 @@
 	</section>	
 									<!-- Footer -->
 	<footer>
-		<div class="footer-div">
+		<div class="bottom-div">
+			<div class="contact">
+				<i class="fas fa-map-marker-alt"></i>
+				<p>ხობი-ხეთა</p>
 			</div>
-			<div class="bottom-div">
-				<div class="contact">
-					<i class="fas fa-map-marker-alt">ხობი-ხეთა</i>
-				</div>
-				<div class="rights">
-					<i class="far fa-copyright">All Rights Reserved</i>
-				</div>
-				<div class="social-links">
-					<i class="fab fa-facebook facebook-icon"></i>
-					<i class="fab fa-instagram instagram-icon" ></i>
-					<i class="fab fa-twitter twitter-icon"></i>
-					<i class="fab fa-youtube youtube-icon"></i>
-				</div>
+			<div class="rights">
+				<i class="far fa-copyright"></i>
+				<p>All Rights Reserved</p>
+			</div>
+			<div class="social-links">
+				<i class="fab fa-facebook facebook-icon"></i>
+				<i class="fab fa-instagram instagram-icon" ></i>
+				<i class="fab fa-twitter twitter-icon"></i>
+				<i class="fab fa-youtube youtube-icon"></i>
 			</div>
 		</div>
 	</footer>
