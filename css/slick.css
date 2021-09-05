@@ -119,11 +119,16 @@
 }
 .slick-prev{
     height: 30px;
-    margin-top:175px;
     font-family: 'Merienda One', cursive;
 }
 .slick-next{
     height: 30px;
-    margin-top: 175px;
     font-family: 'Merienda One', cursive;
+   
+}
+button.slick-next.slick-arrow::before{
+    color: black;  
+}
+button.slick-prev.slick-arrow::before{
+    color: black;  
 }
