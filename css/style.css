@@ -256,6 +256,10 @@ a:hover{
 	margin: 15px;
 	font-family: "BPG Mikheil Stefane", sans-serif;
 }
+.slider-item{
+	width: 350px;
+	height: 414px;
+}
 											/* section 5 */
 .top-div{
 	width: 100%;
@@ -347,7 +351,7 @@ a:hover{
 }
 .rights{
 	display: flex;
-	margin-left: 600px;
+	margin-left: 520px;
 	margin-top: 30px;
 	font-family: 'IBM Plex Sans KR', sans-serif;
 }
@@ -355,7 +359,7 @@ a:hover{
 	margin-right: 5px;
 }
 .social-links{
-	margin-left: 620px;
+	margin-left: 550px;
 	word-spacing: 5px;
 	font-size: 22px;
 }

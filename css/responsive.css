@@ -1,11 +1,134 @@
-@media (max-width: 1125px) {
+@media (max-width: 1024px) {
+    .header-div{
+        width:100%;
+    }
     .text-section{
-        height: 750px;
+        height: 850px;
         flex-direction: column;
+        margin: 0 auto;
     }
     map{
-        /* width: 400px; */
         height: 300px;
-        margin-top: 100px;
+        margin-top: 120px;
+        margin-left: 50px;
     }
+    .about{
+        height: 300px;
+        margin-left: 200px;
+    }
+    /* second section */
+    .directions{
+        height:1200px;
+        width: 800px;
+    }
+    .explore{
+        margin-left: -280px;
+    }
+    .div-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto; 
+        height: 1000px;
+    }
+    .div-directions{
+        margin-left: -100px;
+        height: 300px;
+        width: 250px;
+        margin-top: 35px;
+    }
+    /* slider */
+    .slider-header{
+        margin-left: 410px;
+    }
+    /* section5 */
+   .top-left-div h3{
+       margin-left: 38px;
+   }
+   .textarea-wrapper{
+       width: 250px;
+   }
+   /* footer */
+   .rights{
+       margin-bottom: 40px;
+       margin-left: 140px;
+   }
+   .social-links{
+       margin-bottom: 40px;
+       margin-left: 280px;
+   }
 }
+
+@media(max-width: 768px) {
+    .header-div{
+        width: 82%;
+    }
+    .logo{
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 17px;
+    }
+    .h1{
+        margin-left: 150px;
+    }
+
+    .text-section{
+        width: 800px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    map{
+        height: 300px;
+        width: 550px;
+        /* margin-top: 120px; */
+        margin-left: 100px;
+    }
+    .about{
+        height: 250px;
+        margin-left: 100px;
+    }
+
+    .explore{
+        margin-left: -550px;
+    }
+    .div-container{
+        margin-left: -120px;
+    }
+
+    .slider-header h2{
+        margin-left: -130px;
+    }
+
+    .top-left-div{
+        margin-left: 80px;
+    }
+    .top-right-div{
+        margin-left: 50px;
+    }
+
+    .rights{
+        margin-left: 40px;
+    }
+    .social-links{
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+ }
+
+ @media(max-width: 360px){
+     .background{
+         background-size: cover;
+         max-width: 640px;
+         width: 100%;
+     }
+
+     .text-section{
+         height: 600px;
+     }
+     .map{
+         height: 250px;
+         width: 350px;
+         margin-left: 180px;
+     }
+
+
+ }
