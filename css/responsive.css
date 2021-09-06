@@ -123,12 +123,29 @@
 
      .text-section{
          height: 600px;
-     }
-     .map{
-         height: 250px;
-         width: 350px;
          margin-left: 180px;
      }
-
-
+     .map{
+        height: 250px;
+        width: 500px;
+        margin-left: 180px;
+     }
+     .div-container{
+         margin-left: 180px;
+     }
+     .explore{
+         margin-left: 20px;
+     }
+     .top-div{
+         width: 1250px;
+     }
+     .top-left-div h3{
+         margin-left: 170px;
+     }
+     .bottom-div{
+         width: 1250px;
+     }
+     .center-slider{
+         width: 100%;
+     }
  }
