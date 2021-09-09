@@ -108,7 +108,7 @@ a:hover{
 	font-family: "BPG Nino Elite Caps", sans-serif;
 }
 									  /* <!-- section 2 styles-->  */
-.text-section{
+.text-section-container{
 	width: 1400px;
 	height: 360px;
 	margin-bottom: 150px;
@@ -241,7 +241,10 @@ a:hover{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;	
+	width: 1650px;
+	height: 370px;
 	margin-top: 80px;
+	margin-left: 80px;
 	background-color: rgb(235, 239, 245);
 }
 .slider-header{

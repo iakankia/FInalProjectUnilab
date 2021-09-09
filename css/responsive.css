@@ -11,7 +11,7 @@
         width: 500px;
     }
     .map{
-        width: 550px;
+        width: 600px;
     }
     .explore{
         margin-left: 80px;
@@ -45,8 +45,18 @@
     .social-links{
         margin-left: 350px;
     }
+    .slider{
+        width: 1250px;
+        margin-left: 40px;
+    }
 }
 
+
+@media(max-width:1024px){
+    /* .background{
+     width: 1366px;
+    } */
+}
 
 
 
