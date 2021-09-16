@@ -53,9 +53,88 @@
 
 
 @media(max-width:1024px){
-    /* .background{
-     width: 1366px;
-    } */
+    .header-div{
+        width: 1124px;
+    }
+    .background{
+     width: 1024px;
+    }
+    .text-section-container{
+        margin-left: -50px;
+    }
+    .about{
+        width: 400px;
+    }
+    .map{
+        height: 400px;
+        width: 480px;
+    }
+    .kheta::after{
+        content: "";
+        background-color: rgb(31, 41, 31);
+        width: 120px;
+        height: 1px;
+        margin:15px 190px 30px;
+        display: none;
+        }
+    .directions{
+        width: 1024px;
+    }
+    .top-div{
+        max-width: 1024px;
+        width: 100%;
+    }
+    .div-container{
+        flex-wrap: wrap;
+        width: 1024px;
+        height: 1000px;
+    }
+    .explore{
+        margin-left: -400px;
+    }
+    .church-paragraph-div{
+        margin-left: 100px;
+    }
+    .museum-paragraph-div{
+        margin-left: 100px;
+    }
+    .lake-paragraph-div{
+        margin-left:100px;
+    }
+    .fortress-paragraph-div{
+        margin-left: 100px;
+    }
+    .slider-header{
+        margin-top: 700px;
+        margin-left: 350px;
+    }
+    .div-directions{
+        width: 500px;
+    }
+    .slider{ 
+        width: 900px;
+    }
+    .top-div{
+        width: 1024px;
+    }
+    .top-left-div{
+        margin-left: 70px;
+    }
+    .top-left-div h3{
+        margin-left: 150px;
+    }
+    .top-right-div{
+        margin-left: -80px;
+    }
+    .bottom-div{
+        width: 1024px;
+    }
+    .rights{
+        margin-left: 170px;
+    }
+    .social-links{
+        margin-left: 210px;
+    }
 }
 
 
